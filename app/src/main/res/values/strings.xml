@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car Damage Diagnosis</string>
+    <string name="add_item">Add Item</string>
+    <string name="upload_item">Upload</string>
+</resources>
