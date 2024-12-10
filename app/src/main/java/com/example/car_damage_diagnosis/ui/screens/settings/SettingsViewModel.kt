@@ -1,50 +1,60 @@
 package com.example.car_damage_diagnosis.ui.screens.settings
 
 import android.content.Context
-import androidx.activity.result.launch
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+
+data class User(val phoneNumber: String, val avatarUrl: String? = null)
 
 @HiltViewModel
 class SettingsViewModel @Inject constructor(
     @ApplicationContext private val context: Context
 ) : ViewModel() {
 
-    var setting1 by mutableStateOf(getSettingFromSharedPrefs("setting1", false))
-        private set
+    private val _user = MutableStateFlow<User?>(loadUserFromSharedPrefs())
+    val user: StateFlow<User?> = _user
 
-    var setting2 by mutableStateOf(getSettingFromSharedPrefs("setting2", true))
-        private set
-
-    fun updateSetting1(newValue: Boolean) {
-        viewModelScope.launch(Dispatchers.Main) { // Use viewModelScope and Dispatchers.Main
-            setting1 = newValue
-            saveSettingToSharedPrefs("setting1", newValue)
+    fun updateUser(user: User) {
+        viewModelScope.launch(Dispatchers.IO) {
+            saveUserToSharedPrefs(user)
+            _user.value = user
         }
     }
 
-    fun updateSetting2(newValue: Boolean) {
-        viewModelScope.launch(Dispatchers.Main) { // Use viewModelScope and Dispatchers.Main
-            setting2 = newValue
-            saveSettingToSharedPrefs("setting2", newValue)
+    private fun loadUserFromSharedPrefs(): User? {
+        val prefs = context.getSharedPreferences("settings_prefs", Context.MODE_PRIVATE)
+        val phoneNumber = prefs.getString("phoneNumber", null)
+        val avatarUrl = prefs.getString("avatarUrl", null)
+        return User(phoneNumber ?: "", avatarUrl)
+    }
+
+    private fun saveUserToSharedPrefs(user: User) {
+        val prefs = context.getSharedPreferences("settings_prefs", Context.MODE_PRIVATE)
+        with(prefs.edit()) {
+            putString("phoneNumber", user.phoneNumber)
+            putString("avatarUrl", user.avatarUrl)
+            apply()
         }
     }
 
-    private fun getSettingFromSharedPrefs(key: String, defaultValue: Boolean): Boolean {
-        val sharedPrefs = context.getSharedPreferences("settings_prefs", Context.MODE_PRIVATE)
-        return sharedPrefs.getBoolean(key, defaultValue)
+    fun onEditProfileClick() {
+        // Навигация на экран редактирования профиля
     }
 
-    private fun saveSettingToSharedPrefs(key: String, value: Boolean) {
-        val sharedPrefs = context.getSharedPreferences("settings_prefs", Context.MODE_PRIVATE)
-        sharedPrefs.edit().putBoolean(key, value).apply()
+    fun onThemeClick() {
+        // Обработка клика на "Тема"
     }
+
+    fun onLogoutClick() {
+        // Логика выхода из аккаунта
+    }
+
+    fun getFullPhoneNumber(): String = user.value?.phoneNumber?.let { "+7$it" } ?: ""
 }

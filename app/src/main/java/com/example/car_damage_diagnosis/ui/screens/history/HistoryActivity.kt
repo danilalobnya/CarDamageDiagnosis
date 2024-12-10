@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.example.car_damage_diagnosis.R
+import androidx.core.content.ContextCompat
+
 
 
 class HistoryActivity : AppCompatActivity() {
@@ -15,6 +17,8 @@ class HistoryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_history)
+
+        window.statusBarColor = ContextCompat.getColor(this, R.color.blue_custom)
 
         // Настройка RecyclerView
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)

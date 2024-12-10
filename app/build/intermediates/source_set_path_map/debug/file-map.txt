@@ -65,10 +65,10 @@ com.example.car_damage_diagnosis.app-jetified-emoji2-views-helper-1.4.0-63 /User
 com.example.car_damage_diagnosis.app-fragment-1.5.1-64 /Users/daddyzento/.gradle/caches/transforms-4/fb5bb84436d13e17b707d8021cff760a/transformed/fragment-1.5.1/res
 com.example.car_damage_diagnosis.app-jetified-lifecycle-viewmodel-compose-2.6.2-65 /Users/daddyzento/.gradle/caches/transforms-4/fc47f9e93a975545175304400a6d54ab/transformed/jetified-lifecycle-viewmodel-compose-2.6.2/res
 com.example.car_damage_diagnosis.app-jetified-activity-ktx-1.7.2-66 /Users/daddyzento/.gradle/caches/transforms-4/feb460bb5ad406e4468e97724b8d162c/transformed/jetified-activity-ktx-1.7.2/res
-com.example.car_damage_diagnosis.app-resValues-67 /Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/build/generated/res/resValues/debug
-com.example.car_damage_diagnosis.app-rs-68 /Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/build/generated/res/rs/debug
-com.example.car_damage_diagnosis.app-mergeDebugResources-69 /Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
-com.example.car_damage_diagnosis.app-mergeDebugResources-70 /Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
-com.example.car_damage_diagnosis.app-merged_res-71 /Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/build/intermediates/merged_res/debug
-com.example.car_damage_diagnosis.app-debug-72 /Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/debug/res
-com.example.car_damage_diagnosis.app-main-73 /Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/res
+com.example.car_damage_diagnosis.app-resValues-67 /Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/build/generated/res/resValues/debug
+com.example.car_damage_diagnosis.app-rs-68 /Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/build/generated/res/rs/debug
+com.example.car_damage_diagnosis.app-mergeDebugResources-69 /Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.car_damage_diagnosis.app-mergeDebugResources-70 /Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.car_damage_diagnosis.app-merged_res-71 /Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/build/intermediates/merged_res/debug
+com.example.car_damage_diagnosis.app-debug-72 /Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/debug/res
+com.example.car_damage_diagnosis.app-main-73 /Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/res

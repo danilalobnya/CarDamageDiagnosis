@@ -6,25 +6,25 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml
+8-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml
+9-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:5:5-67
-11-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:5:22-64
+11-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.CAMERA" />
-12-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:6:5-65
-12-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:6:22-62
+12-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:6:5-65
+12-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:6:22-62
 13    <uses-permission
-13-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:7:5-8:38
+13-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:7:5-8:38
 14        android:name="android.permission.READ_EXTERNAL_STORAGE"
-14-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:7:22-77
+14-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:7:22-77
 15        android:maxSdkVersion="32" />
-15-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:8:9-35
+15-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:8:9-35
 16    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-16-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:9:5-76
-16-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:9:22-73
+16-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:9:5-76
+16-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:9:22-73
 17
 18    <permission
 18-->[androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/transforms-4/85db6a7458c7193dbded39db66a7d5f3/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
@@ -38,57 +38,57 @@
 22-->[androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/transforms-4/85db6a7458c7193dbded39db66a7d5f3/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 23
 24    <application
-24-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:11:5-49:19
+24-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:11:5-49:19
 25        android:name="com.example.car_damage_diagnosis.CarDamageApp"
-25-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:12:9-37
+25-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:12:9-37
 26        android:allowBackup="true"
-26-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:13:9-35
+26-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:13:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 27-->[androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/transforms-4/85db6a7458c7193dbded39db66a7d5f3/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 28        android:dataExtractionRules="@xml/data_extraction_rules"
-28-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:14:9-65
+28-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:14:9-65
 29        android:debuggable="true"
 30        android:extractNativeLibs="false"
 31        android:fullBackupContent="@xml/backup_rules"
-31-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:15:9-54
+31-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:15:9-54
 32        android:icon="@mipmap/ic_launcher"
-32-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:16:9-43
+32-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:16:9-43
 33        android:label="@string/app_name"
-33-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:17:9-41
+33-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:17:9-41
 34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:18:9-54
+34-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:18:9-54
 35        android:supportsRtl="true"
-35-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:19:9-35
+35-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:19:9-35
 36        android:testOnly="true"
 37        android:theme="@style/Theme.CarDamageDiagnosis" >
-37-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:20:9-56
+37-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:20:9-56
 38
 39        <!-- main вход -->
 40        <activity
-40-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:23:9-31:20
+40-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:23:9-31:20
 41            android:name="com.example.car_damage_diagnosis.MainActivity"
-41-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:24:13-41
+41-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:24:13-41
 42            android:exported="true"
-42-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:25:13-36
+42-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:25:13-36
 43            android:theme="@style/Theme.CarDamageDiagnosis" >
-43-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:26:13-60
+43-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:26:13-60
 44            <intent-filter>
-44-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:27:13-30:29
+44-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:27:13-30:29
 45                <action android:name="android.intent.action.MAIN" />
-45-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:28:17-69
-45-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:28:25-66
+45-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:28:17-69
+45-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:28:25-66
 46
 47                <category android:name="android.intent.category.LAUNCHER" />
-47-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:29:17-77
-47-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:29:27-74
+47-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:29:17-77
+47-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:29:27-74
 48            </intent-filter>
 49        </activity>
 50        <activity android:name="com.example.car_damage_diagnosis.ui.screens.history.HistoryActivity" />
-50-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:32:9-72
-50-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:32:19-69
+50-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:32:9-72
+50-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:32:19-69
 51        <activity android:name="com.example.car_damage_diagnosis.ui.screens.history.DetailActivity" >
-51-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:35:9-37:20
-51-->/Users/daddyzento/Downloads/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:35:19-68
+51-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:35:9-37:20
+51-->/Users/daddyzento/Documents/12345-c66bc32844072108b520bd5ad5419a72d71bb3a4-2/app/src/main/AndroidManifest.xml:35:19-68
 52
 53            <!-- Вы можете добавить Intent-фильтры или другие атрибуты, если необходимо -->
 54        </activity>

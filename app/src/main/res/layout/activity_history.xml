@@ -3,25 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".HistoryActivity">
+    android:layout_height="match_parent">
 
-    <!-- Toolbar -->
+    <!-- AppBarLayout -->
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <!-- Toolbar -->
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:title="История"
-            app:titleTextColor="@android:color/white"
-            app:menu="@menu/history_menu" />
+            app:menu="@menu/history_menu">
+
+            <!-- Централизованный заголовок -->
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="История"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!-- Сетка элементов -->
+    <!-- RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
@@ -31,7 +41,7 @@
         android:clipToPadding="false"
         tools:listitem="@layout/item_history_card" />
 
-    <!-- Кнопка добавления -->
+    <!-- Floating Action Button -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -39,5 +49,6 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:contentDescription="@string/add_item"
-        app:srcCompat="@drawable/ic_upload" />
+        app:srcCompat="@drawable/upload"
+        app:backgroundTint="@android:color/white" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
