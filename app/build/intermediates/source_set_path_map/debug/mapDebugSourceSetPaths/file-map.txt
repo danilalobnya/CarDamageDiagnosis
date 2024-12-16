@@ -66,9 +66,9 @@ com.example.car_damage_diagnosis.app-jetified-material3-1.1.1-64 /Users/daddyzen
 com.example.car_damage_diagnosis.app-jetified-lifecycle-viewmodel-compose-2.6.2-65 /Users/daddyzento/.gradle/caches/8.9/transforms/ee2d1ea7ef00456b6eeef8ca27d6d1be/transformed/jetified-lifecycle-viewmodel-compose-2.6.2/res
 com.example.car_damage_diagnosis.app-jetified-material-icons-core-release-66 /Users/daddyzento/.gradle/caches/8.9/transforms/f44b3249688677322a2e17c09e974369/transformed/jetified-material-icons-core-release/res
 com.example.car_damage_diagnosis.app-recyclerview-selection-1.1.0-67 /Users/daddyzento/.gradle/caches/8.9/transforms/f4b74331a694af5aad73f8f4d2e7c77b/transformed/recyclerview-selection-1.1.0/res
-com.example.car_damage_diagnosis.app-resValues-68 /Users/daddyzento/Downloads/main — копия/app/build/generated/res/resValues/debug
-com.example.car_damage_diagnosis.app-mergeDebugResources-69 /Users/daddyzento/Downloads/main — копия/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
-com.example.car_damage_diagnosis.app-mergeDebugResources-70 /Users/daddyzento/Downloads/main — копия/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
-com.example.car_damage_diagnosis.app-debug-71 /Users/daddyzento/Downloads/main — копия/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.example.car_damage_diagnosis.app-debug-72 /Users/daddyzento/Downloads/main — копия/app/src/debug/res
-com.example.car_damage_diagnosis.app-main-73 /Users/daddyzento/Downloads/main — копия/app/src/main/res
+com.example.car_damage_diagnosis.app-resValues-68 /Users/daddyzento/Downloads/owner/app/build/generated/res/resValues/debug
+com.example.car_damage_diagnosis.app-mergeDebugResources-69 /Users/daddyzento/Downloads/owner/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.car_damage_diagnosis.app-mergeDebugResources-70 /Users/daddyzento/Downloads/owner/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.car_damage_diagnosis.app-debug-71 /Users/daddyzento/Downloads/owner/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.car_damage_diagnosis.app-debug-72 /Users/daddyzento/Downloads/owner/app/src/debug/res
+com.example.car_damage_diagnosis.app-main-73 /Users/daddyzento/Downloads/owner/app/src/main/res

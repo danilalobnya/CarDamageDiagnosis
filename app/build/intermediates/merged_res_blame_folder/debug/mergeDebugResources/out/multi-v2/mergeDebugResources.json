@@ -2874,23 +2874,6 @@
                     }
                 },
                 {
-                    "source": "/Users/daddyzento/Downloads/main — копия/app/src/main/res/values/ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "56",
-                        "endOffsets": "107"
-                    },
-                    "to": {
-                        "startLines": "699",
-                        "startColumns": "4",
-                        "startOffsets": "36870",
-                        "endColumns": "56",
-                        "endOffsets": "36922"
-                    }
-                },
-                {
                     "source": "/Users/daddyzento/.gradle/caches/8.9/transforms/9e333d25832e3f9fd4e8cf974c76610e/transformed/lifecycle-viewmodel-2.6.2/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -2943,40 +2926,6 @@
                         "endLines": "13519",
                         "endColumns": "24",
                         "endOffsets": "794730"
-                    }
-                },
-                {
-                    "source": "/Users/daddyzento/Downloads/main — копия/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "3,2,5,4",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "113,55,206,159",
-                        "endColumns": "45,57,45,46",
-                        "endOffsets": "154,108,247,201"
-                    },
-                    "to": {
-                        "startLines": "1956,1958,2161,2184",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "129020,129149,152944,154582",
-                        "endColumns": "45,57,45,46",
-                        "endOffsets": "129061,129202,152985,154624"
-                    }
-                },
-                {
-                    "source": "/Users/daddyzento/Downloads/main — копия/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "88",
-                        "endOffsets": "139"
-                    },
-                    "to": {
-                        "startLines": "6391",
-                        "startColumns": "4",
-                        "startOffsets": "445876",
-                        "endColumns": "87",
-                        "endOffsets": "445959"
                     }
                 },
                 {
@@ -3033,6 +2982,23 @@
                     }
                 },
                 {
+                    "source": "/Users/daddyzento/Downloads/owner/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "88",
+                        "endOffsets": "139"
+                    },
+                    "to": {
+                        "startLines": "6391",
+                        "startColumns": "4",
+                        "startOffsets": "445876",
+                        "endColumns": "87",
+                        "endOffsets": "445959"
+                    }
+                },
+                {
                     "source": "/Users/daddyzento/.gradle/caches/8.9/transforms/c9fc515163a24459e3d73d9d7a7e80be/transformed/recyclerview-1.3.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -3049,6 +3015,23 @@
                         "endLines": "504,1104,1105,1106,1114,1115,1116,1788,12605",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "25533,66084,66132,66188,66874,66950,67022,118771,760796"
+                    }
+                },
+                {
+                    "source": "/Users/daddyzento/Downloads/owner/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "141,55,101",
+                        "endColumns": "39,45,39",
+                        "endOffsets": "176,96,136"
+                    },
+                    "to": {
+                        "startLines": "638,639,959",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "32659,32699,56438",
+                        "endColumns": "39,45,39",
+                        "endOffsets": "32694,32740,56473"
                     }
                 },
                 {
@@ -3198,6 +3181,23 @@
                     }
                 },
                 {
+                    "source": "/Users/daddyzento/Downloads/owner/app/src/main/res/values/ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "699",
+                        "startColumns": "4",
+                        "startOffsets": "36870",
+                        "endColumns": "56",
+                        "endOffsets": "36922"
+                    }
+                },
+                {
                     "source": "/Users/daddyzento/.gradle/caches/8.9/transforms/cdc873914827039b360cad016283d628/transformed/jetified-glide-4.16.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -3253,23 +3253,6 @@
                     }
                 },
                 {
-                    "source": "/Users/daddyzento/Downloads/main — копия/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "141,55,101",
-                        "endColumns": "39,45,39",
-                        "endOffsets": "176,96,136"
-                    },
-                    "to": {
-                        "startLines": "638,639,959",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "32659,32699,56438",
-                        "endColumns": "39,45,39",
-                        "endOffsets": "32694,32740,56473"
-                    }
-                },
-                {
                     "source": "/Users/daddyzento/.gradle/caches/8.9/transforms/6a6e430fbe29e0be89cacc684341a689/transformed/jetified-ui-release/res/values/values.xml",
                     "from": {
                         "startLines": "34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,60,63",
@@ -3322,6 +3305,23 @@
                         "startOffsets": "122047",
                         "endColumns": "42",
                         "endOffsets": "122085"
+                    }
+                },
+                {
+                    "source": "/Users/daddyzento/Downloads/owner/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,2,5,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "113,55,206,159",
+                        "endColumns": "45,57,45,46",
+                        "endOffsets": "154,108,247,201"
+                    },
+                    "to": {
+                        "startLines": "1956,1958,2161,2184",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "129020,129149,152944,154582",
+                        "endColumns": "45,57,45,46",
+                        "endOffsets": "129061,129202,152985,154624"
                     }
                 },
                 {
