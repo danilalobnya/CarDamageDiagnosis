@@ -1,0 +1,541 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:2:1-79:12
+MERGED from [androidx.compose.material3:material3:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/eda57bc880cf85a42ac30115c468514e/transformed/jetified-material3-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/93c36533f4436019612b2afaf2a7a6dc/transformed/jetified-hilt-navigation-compose-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/75411f4a7ce7a5df848e749bce786b2c/transformed/jetified-hilt-navigation-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/21eb5db9c8279406152125403598cc20/transformed/navigation-common-2.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/7734377bff1b7dd1c7eaece2a2149e6a/transformed/navigation-runtime-2.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/42912a9ff706c1610e1d24e77c49813a/transformed/navigation-common-ktx-2.7.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/98e80b18dc23792e7b6ad5925c382f33/transformed/navigation-runtime-ktx-2.7.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/72219ff6ccb61c49d477a803b75a19cf/transformed/jetified-navigation-compose-2.7.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.material:material:1.9.0] /Users/daddyzento/.gradle/caches/8.9/transforms/e580b650d94e9b8b26a43aa710a02321/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/daddyzento/.gradle/caches/8.9/transforms/a9469c1f022931d055c2017c1818e7e7/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [io.coil-kt:coil-compose:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/cd722d28a1fae6254b64797f8985c993/transformed/jetified-coil-compose-2.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/f91cb9242db709c84de00c3c714cf8d9/transformed/jetified-coil-compose-base-2.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/450ff32effdbe1f59d4edce8613c0af7/transformed/jetified-coil-2.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/7df36eef5dab7f624b252b7265b1894c/transformed/jetified-coil-base-2.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/daddyzento/.gradle/caches/8.9/transforms/d932c27a929137fb2ba6981f918346c4/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/daddyzento/.gradle/caches/8.9/transforms/d742d6cc749747640e05fc53c5de4a5f/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:hilt-android:2.44] /Users/daddyzento/.gradle/caches/8.9/transforms/8475676e35475434648feaf6a64f1551/transformed/jetified-hilt-android-2.44/AndroidManifest.xml:16:1-19:12
+MERGED from [com.github.bumptech.glide:compose:1.0.0-alpha.5] /Users/daddyzento/.gradle/caches/8.9/transforms/c6529467d3aeae6a66ebe9f65af3b7b9/transformed/jetified-compose-1.0.0-alpha.5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:ktx:1.0.0-alpha.5] /Users/daddyzento/.gradle/caches/8.9/transforms/b7fc626f4abc315e8083895dfdda2fc5/transformed/jetified-ktx-1.0.0-alpha.5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:recyclerview-integration:4.16.0] /Users/daddyzento/.gradle/caches/8.9/transforms/efc7a556174cafa884c2425c9a1dda30/transformed/jetified-recyclerview-integration-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/daddyzento/.gradle/caches/8.9/transforms/cdc873914827039b360cad016283d628/transformed/jetified-glide-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/4921e2aa29e16c305126193520fc8fb0/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0b7f4211ac02114114326307bba50a70/transformed/fragment-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/46342751a47f2cd00f6a895a17723ba2/transformed/jetified-activity-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a89b163599ab74678fd59f9479ac7104/transformed/jetified-activity-ktx-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/ade9db8cc1952b7886f138b24bb10e40/transformed/jetified-activity-compose-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/daddyzento/.gradle/caches/8.9/transforms/341352731999b896d46eb2f5730f37f6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/797bf8b6d46d4a3d4bc3b3b998a94b68/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/f44b3249688677322a2e17c09e974369/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/50f530cb7cfa360d7aeb09a403f70132/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/c6121c5fcd3027a4451c2f2caec97330/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/daddyzento/.gradle/caches/8.9/transforms/aa5a79b19e5b90548d491544e2c496a2/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/331ac2c80fa75800475703e5af7cc5bf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/3dfb8e956b81bdc7e3b72544c7205143/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/b232ce1cb7fb4ef8b8f97a15f1250671/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/e0afe4aebeb196cf04d4834f62ed6920/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/ca91e492d806e029bc4d518e9d5b1dea/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/9cf6e8c4913dafc60354a531b6e45fd7/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/aed02ea642e7f022de72e692e8bfdcd0/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/960c0f49939826be2f7308d7583da6d3/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/cfed465e48860fa7c7dd4b10d970139e/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/bf09cbc51117bde598a86e0e18acc948/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/019ade71f1dbfe78662a6bba724f188d/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/1d17a003ad5c67343e8372afcdc210c5/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/09eb78c679606e7fe44c45d4a4b3a19b/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/b285e645155020fdcbb46f1d0f214724/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/24792a2af0099a1645267046e0b14c1f/transformed/jetified-emoji2-views-helper-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/0acc74074648f5994514b4f0310b537a/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/182c0f15bde90cc205cd56ec104b50d7/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/60f91b803e9530d6ef5ddea3d97d2676/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9e333d25832e3f9fd4e8cf974c76610e/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/c7d5ee2a3df28d0f368d94f003dbd104/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/f4b74331a694af5aad73f8f4d2e7c77b/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/daddyzento/.gradle/caches/8.9/transforms/c9fc515163a24459e3d73d9d7a7e80be/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/af2f0c7b1044d56aebc7b420bfe4b0d3/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/0122d108b14856f0ad82d168b061e409/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/65e45709fd957044e7088a745fd30863/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/70f5d1af6b2aa3e0c6d115252784a9e1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/daddyzento/.gradle/caches/8.9/transforms/903c728e41e8c40c93f9a3d05147901e/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/2c52c02f96e23fcbe3c319cd20944f06/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/8f008bfeac825388c0c437f4d9ee17a3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/dde9d89e0e1091fabda78273e555f22c/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/82fdb3c114e7c5c1d6f0c2cc4a14f726/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/5c86cfd14202092537477d1a689a735f/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/349a66ff508ecc96579895e80cd4b05b/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/064f9480e0e31455774cf436e22d7cae/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/ee2d1ea7ef00456b6eeef8ca27d6d1be/transformed/jetified-lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] /Users/daddyzento/.gradle/caches/8.9/transforms/1028c8f9a5f26882fda6a971e5c65e06/transformed/jetified-accompanist-drawablepainter-0.30.1/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.compose.ui:ui-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/6a6e430fbe29e0be89cacc684341a689/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-ktx:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/c950c65dce605d12294e834fd9be801a/transformed/jetified-room-ktx-2.5.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/dc0286282846074715a44b01dd76d930/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/1f75b2a7ea03d5f308d8502a8f9fe5ce/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/06e105356ce498a027f0c23ffb19c028/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/d8a3cb1df890dd012ff9a0100c0fb147/transformed/sqlite-2.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/daddyzento/.gradle/caches/8.9/transforms/e65bc4ee9abf8981428f92ac727f5598/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/b4b2bcd6b5f4403c4bfb366094f8efa4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/1010aa7807935cc8f3fd4732d98bca30/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/3f5f1db497fa7a7460b1ef314b6ed4eb/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/670c8c44a76a3b2a8735c54874ccbbd7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/daddyzento/.gradle/caches/8.9/transforms/4a47d0d59e7ae3db3067dee958a30fc6/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/daddyzento/.gradle/caches/8.9/transforms/df1c76097e95115ffb49b0d7b0cc9a36/transformed/jetified-gifdecoder-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/daddyzento/.gradle/caches/8.9/transforms/90a76f40008be40939b9e7d2556c3b61/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/ad64b57b8768775f5415e7f2b2895c8b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/8d67a0a6006795d190bbfa8457d2592f/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/d022d08184f4872df521f2ed28abd513/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/c77a5f83c693841d7fde64083f3c5aa1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/bedd8c943112ffa56b436daf63fd309e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.44] /Users/daddyzento/.gradle/caches/8.9/transforms/3eb6cb6bbbf1ce5630b0d5b743b73bf5/transformed/jetified-dagger-lint-aar-2.44/AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:5:5-7:36
+	android:required
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:7:9-33
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:6:9-47
+uses-permission#android.permission.INTERNET
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:10:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:11:5-12:38
+	android:maxSdkVersion
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:13:22-73
+application
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:15:5-78:19
+INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:15:5-78:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.material:material:1.9.0] /Users/daddyzento/.gradle/caches/8.9/transforms/e580b650d94e9b8b26a43aa710a02321/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] /Users/daddyzento/.gradle/caches/8.9/transforms/e580b650d94e9b8b26a43aa710a02321/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/daddyzento/.gradle/caches/8.9/transforms/a9469c1f022931d055c2017c1818e7e7/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/daddyzento/.gradle/caches/8.9/transforms/a9469c1f022931d055c2017c1818e7e7/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/670c8c44a76a3b2a8735c54874ccbbd7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/670c8c44a76a3b2a8735c54874ccbbd7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/ad64b57b8768775f5415e7f2b2895c8b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/ad64b57b8768775f5415e7f2b2895c8b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:21:9-41
+	android:fullBackupContent
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:19:9-54
+	android:roundIcon
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:22:9-54
+	tools:targetApi
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:25:9-29
+	android:icon
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:24:9-56
+	android:dataExtractionRules
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:18:9-65
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:16:9-37
+activity#com.example.car_damage_diagnosis.MainActivity
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:28:9-36:20
+	android:exported
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:31:13-60
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:29:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:34:27-74
+activity#com.example.car_damage_diagnosis.ui.screens.history.HistoryActivity
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:38:9-72
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:38:19-69
+activity#com.example.car_damage_diagnosis.ui.screens.history.DetailActivity
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:39:9-71
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:39:19-68
+activity#com.example.car_damage_diagnosis.ui.screens.settings.SettingsScreen
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:40:9-72
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:40:19-69
+activity#com.example.car_damage_diagnosis.ui.screens.loader.LoaderScreen
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:41:9-68
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:41:19-65
+activity#com.example.car_damage_diagnosis.ui.screens.upload.UploadScreen
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:42:9-68
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:42:19-65
+provider#androidx.core.content.FileProvider
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:43:9-52:20
+	android:grantUriPermissions
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:47:13-47
+	android:authorities
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:45:13-80
+	android:exported
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:46:13-37
+	android:permission
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:48:13-76
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:44:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:49:13-51:54
+	android:resource
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:51:17-51
+	android:name
+		ADDED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:50:17-67
+uses-sdk
+INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml
+INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml
+MERGED from [androidx.compose.material3:material3:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/eda57bc880cf85a42ac30115c468514e/transformed/jetified-material3-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/eda57bc880cf85a42ac30115c468514e/transformed/jetified-material3-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/93c36533f4436019612b2afaf2a7a6dc/transformed/jetified-hilt-navigation-compose-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/93c36533f4436019612b2afaf2a7a6dc/transformed/jetified-hilt-navigation-compose-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/75411f4a7ce7a5df848e749bce786b2c/transformed/jetified-hilt-navigation-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/75411f4a7ce7a5df848e749bce786b2c/transformed/jetified-hilt-navigation-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/21eb5db9c8279406152125403598cc20/transformed/navigation-common-2.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/21eb5db9c8279406152125403598cc20/transformed/navigation-common-2.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/7734377bff1b7dd1c7eaece2a2149e6a/transformed/navigation-runtime-2.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/7734377bff1b7dd1c7eaece2a2149e6a/transformed/navigation-runtime-2.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/42912a9ff706c1610e1d24e77c49813a/transformed/navigation-common-ktx-2.7.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/42912a9ff706c1610e1d24e77c49813a/transformed/navigation-common-ktx-2.7.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/98e80b18dc23792e7b6ad5925c382f33/transformed/navigation-runtime-ktx-2.7.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/98e80b18dc23792e7b6ad5925c382f33/transformed/navigation-runtime-ktx-2.7.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/72219ff6ccb61c49d477a803b75a19cf/transformed/jetified-navigation-compose-2.7.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/72219ff6ccb61c49d477a803b75a19cf/transformed/jetified-navigation-compose-2.7.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.9.0] /Users/daddyzento/.gradle/caches/8.9/transforms/e580b650d94e9b8b26a43aa710a02321/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /Users/daddyzento/.gradle/caches/8.9/transforms/e580b650d94e9b8b26a43aa710a02321/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/daddyzento/.gradle/caches/8.9/transforms/a9469c1f022931d055c2017c1818e7e7/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/daddyzento/.gradle/caches/8.9/transforms/a9469c1f022931d055c2017c1818e7e7/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/cd722d28a1fae6254b64797f8985c993/transformed/jetified-coil-compose-2.4.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/cd722d28a1fae6254b64797f8985c993/transformed/jetified-coil-compose-2.4.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/f91cb9242db709c84de00c3c714cf8d9/transformed/jetified-coil-compose-base-2.4.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/f91cb9242db709c84de00c3c714cf8d9/transformed/jetified-coil-compose-base-2.4.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/450ff32effdbe1f59d4edce8613c0af7/transformed/jetified-coil-2.4.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/450ff32effdbe1f59d4edce8613c0af7/transformed/jetified-coil-2.4.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/7df36eef5dab7f624b252b7265b1894c/transformed/jetified-coil-base-2.4.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/7df36eef5dab7f624b252b7265b1894c/transformed/jetified-coil-base-2.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/daddyzento/.gradle/caches/8.9/transforms/d932c27a929137fb2ba6981f918346c4/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/daddyzento/.gradle/caches/8.9/transforms/d932c27a929137fb2ba6981f918346c4/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/daddyzento/.gradle/caches/8.9/transforms/d742d6cc749747640e05fc53c5de4a5f/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/daddyzento/.gradle/caches/8.9/transforms/d742d6cc749747640e05fc53c5de4a5f/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.44] /Users/daddyzento/.gradle/caches/8.9/transforms/8475676e35475434648feaf6a64f1551/transformed/jetified-hilt-android-2.44/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.44] /Users/daddyzento/.gradle/caches/8.9/transforms/8475676e35475434648feaf6a64f1551/transformed/jetified-hilt-android-2.44/AndroidManifest.xml:18:3-42
+MERGED from [com.github.bumptech.glide:compose:1.0.0-alpha.5] /Users/daddyzento/.gradle/caches/8.9/transforms/c6529467d3aeae6a66ebe9f65af3b7b9/transformed/jetified-compose-1.0.0-alpha.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:compose:1.0.0-alpha.5] /Users/daddyzento/.gradle/caches/8.9/transforms/c6529467d3aeae6a66ebe9f65af3b7b9/transformed/jetified-compose-1.0.0-alpha.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:ktx:1.0.0-alpha.5] /Users/daddyzento/.gradle/caches/8.9/transforms/b7fc626f4abc315e8083895dfdda2fc5/transformed/jetified-ktx-1.0.0-alpha.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:ktx:1.0.0-alpha.5] /Users/daddyzento/.gradle/caches/8.9/transforms/b7fc626f4abc315e8083895dfdda2fc5/transformed/jetified-ktx-1.0.0-alpha.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:recyclerview-integration:4.16.0] /Users/daddyzento/.gradle/caches/8.9/transforms/efc7a556174cafa884c2425c9a1dda30/transformed/jetified-recyclerview-integration-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:recyclerview-integration:4.16.0] /Users/daddyzento/.gradle/caches/8.9/transforms/efc7a556174cafa884c2425c9a1dda30/transformed/jetified-recyclerview-integration-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/daddyzento/.gradle/caches/8.9/transforms/cdc873914827039b360cad016283d628/transformed/jetified-glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/daddyzento/.gradle/caches/8.9/transforms/cdc873914827039b360cad016283d628/transformed/jetified-glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/4921e2aa29e16c305126193520fc8fb0/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/4921e2aa29e16c305126193520fc8fb0/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0b7f4211ac02114114326307bba50a70/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0b7f4211ac02114114326307bba50a70/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/46342751a47f2cd00f6a895a17723ba2/transformed/jetified-activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/46342751a47f2cd00f6a895a17723ba2/transformed/jetified-activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a89b163599ab74678fd59f9479ac7104/transformed/jetified-activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a89b163599ab74678fd59f9479ac7104/transformed/jetified-activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/ade9db8cc1952b7886f138b24bb10e40/transformed/jetified-activity-compose-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/daddyzento/.gradle/caches/8.9/transforms/ade9db8cc1952b7886f138b24bb10e40/transformed/jetified-activity-compose-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/daddyzento/.gradle/caches/8.9/transforms/341352731999b896d46eb2f5730f37f6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/daddyzento/.gradle/caches/8.9/transforms/341352731999b896d46eb2f5730f37f6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/797bf8b6d46d4a3d4bc3b3b998a94b68/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/797bf8b6d46d4a3d4bc3b3b998a94b68/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/f44b3249688677322a2e17c09e974369/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/f44b3249688677322a2e17c09e974369/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/50f530cb7cfa360d7aeb09a403f70132/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/50f530cb7cfa360d7aeb09a403f70132/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/c6121c5fcd3027a4451c2f2caec97330/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/c6121c5fcd3027a4451c2f2caec97330/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/daddyzento/.gradle/caches/8.9/transforms/aa5a79b19e5b90548d491544e2c496a2/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/daddyzento/.gradle/caches/8.9/transforms/aa5a79b19e5b90548d491544e2c496a2/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/331ac2c80fa75800475703e5af7cc5bf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/331ac2c80fa75800475703e5af7cc5bf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/3dfb8e956b81bdc7e3b72544c7205143/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/3dfb8e956b81bdc7e3b72544c7205143/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/b232ce1cb7fb4ef8b8f97a15f1250671/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/b232ce1cb7fb4ef8b8f97a15f1250671/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/e0afe4aebeb196cf04d4834f62ed6920/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/e0afe4aebeb196cf04d4834f62ed6920/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/ca91e492d806e029bc4d518e9d5b1dea/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/ca91e492d806e029bc4d518e9d5b1dea/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/9cf6e8c4913dafc60354a531b6e45fd7/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/9cf6e8c4913dafc60354a531b6e45fd7/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/aed02ea642e7f022de72e692e8bfdcd0/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/aed02ea642e7f022de72e692e8bfdcd0/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/960c0f49939826be2f7308d7583da6d3/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/960c0f49939826be2f7308d7583da6d3/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/cfed465e48860fa7c7dd4b10d970139e/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/cfed465e48860fa7c7dd4b10d970139e/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/bf09cbc51117bde598a86e0e18acc948/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/bf09cbc51117bde598a86e0e18acc948/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/019ade71f1dbfe78662a6bba724f188d/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/019ade71f1dbfe78662a6bba724f188d/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/1d17a003ad5c67343e8372afcdc210c5/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/1d17a003ad5c67343e8372afcdc210c5/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/09eb78c679606e7fe44c45d4a4b3a19b/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/09eb78c679606e7fe44c45d4a4b3a19b/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/b285e645155020fdcbb46f1d0f214724/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/b285e645155020fdcbb46f1d0f214724/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/24792a2af0099a1645267046e0b14c1f/transformed/jetified-emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/24792a2af0099a1645267046e0b14c1f/transformed/jetified-emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/0acc74074648f5994514b4f0310b537a/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/0acc74074648f5994514b4f0310b537a/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/182c0f15bde90cc205cd56ec104b50d7/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/182c0f15bde90cc205cd56ec104b50d7/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/60f91b803e9530d6ef5ddea3d97d2676/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/60f91b803e9530d6ef5ddea3d97d2676/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9e333d25832e3f9fd4e8cf974c76610e/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9e333d25832e3f9fd4e8cf974c76610e/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/c7d5ee2a3df28d0f368d94f003dbd104/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/c7d5ee2a3df28d0f368d94f003dbd104/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/f4b74331a694af5aad73f8f4d2e7c77b/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/f4b74331a694af5aad73f8f4d2e7c77b/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/daddyzento/.gradle/caches/8.9/transforms/c9fc515163a24459e3d73d9d7a7e80be/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/daddyzento/.gradle/caches/8.9/transforms/c9fc515163a24459e3d73d9d7a7e80be/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/af2f0c7b1044d56aebc7b420bfe4b0d3/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/af2f0c7b1044d56aebc7b420bfe4b0d3/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/0122d108b14856f0ad82d168b061e409/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/0122d108b14856f0ad82d168b061e409/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/65e45709fd957044e7088a745fd30863/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/65e45709fd957044e7088a745fd30863/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/70f5d1af6b2aa3e0c6d115252784a9e1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/70f5d1af6b2aa3e0c6d115252784a9e1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/daddyzento/.gradle/caches/8.9/transforms/903c728e41e8c40c93f9a3d05147901e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/daddyzento/.gradle/caches/8.9/transforms/903c728e41e8c40c93f9a3d05147901e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/2c52c02f96e23fcbe3c319cd20944f06/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/2c52c02f96e23fcbe3c319cd20944f06/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/8f008bfeac825388c0c437f4d9ee17a3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/8f008bfeac825388c0c437f4d9ee17a3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/dde9d89e0e1091fabda78273e555f22c/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/dde9d89e0e1091fabda78273e555f22c/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/82fdb3c114e7c5c1d6f0c2cc4a14f726/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/82fdb3c114e7c5c1d6f0c2cc4a14f726/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/5c86cfd14202092537477d1a689a735f/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/daddyzento/.gradle/caches/8.9/transforms/5c86cfd14202092537477d1a689a735f/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/349a66ff508ecc96579895e80cd4b05b/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/349a66ff508ecc96579895e80cd4b05b/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/064f9480e0e31455774cf436e22d7cae/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/064f9480e0e31455774cf436e22d7cae/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/ee2d1ea7ef00456b6eeef8ca27d6d1be/transformed/jetified-lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/ee2d1ea7ef00456b6eeef8ca27d6d1be/transformed/jetified-lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] /Users/daddyzento/.gradle/caches/8.9/transforms/1028c8f9a5f26882fda6a971e5c65e06/transformed/jetified-accompanist-drawablepainter-0.30.1/AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] /Users/daddyzento/.gradle/caches/8.9/transforms/1028c8f9a5f26882fda6a971e5c65e06/transformed/jetified-accompanist-drawablepainter-0.30.1/AndroidManifest.xml:21:5-23:42
+MERGED from [androidx.compose.ui:ui-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/6a6e430fbe29e0be89cacc684341a689/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/6a6e430fbe29e0be89cacc684341a689/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/c950c65dce605d12294e834fd9be801a/transformed/jetified-room-ktx-2.5.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/c950c65dce605d12294e834fd9be801a/transformed/jetified-room-ktx-2.5.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/dc0286282846074715a44b01dd76d930/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/dc0286282846074715a44b01dd76d930/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/1f75b2a7ea03d5f308d8502a8f9fe5ce/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/1f75b2a7ea03d5f308d8502a8f9fe5ce/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/06e105356ce498a027f0c23ffb19c028/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/06e105356ce498a027f0c23ffb19c028/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/d8a3cb1df890dd012ff9a0100c0fb147/transformed/sqlite-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/d8a3cb1df890dd012ff9a0100c0fb147/transformed/sqlite-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/daddyzento/.gradle/caches/8.9/transforms/e65bc4ee9abf8981428f92ac727f5598/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/daddyzento/.gradle/caches/8.9/transforms/e65bc4ee9abf8981428f92ac727f5598/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/b4b2bcd6b5f4403c4bfb366094f8efa4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/b4b2bcd6b5f4403c4bfb366094f8efa4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/1010aa7807935cc8f3fd4732d98bca30/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/1010aa7807935cc8f3fd4732d98bca30/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/3f5f1db497fa7a7460b1ef314b6ed4eb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/3f5f1db497fa7a7460b1ef314b6ed4eb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/670c8c44a76a3b2a8735c54874ccbbd7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/670c8c44a76a3b2a8735c54874ccbbd7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/daddyzento/.gradle/caches/8.9/transforms/4a47d0d59e7ae3db3067dee958a30fc6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/daddyzento/.gradle/caches/8.9/transforms/4a47d0d59e7ae3db3067dee958a30fc6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/daddyzento/.gradle/caches/8.9/transforms/df1c76097e95115ffb49b0d7b0cc9a36/transformed/jetified-gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/daddyzento/.gradle/caches/8.9/transforms/df1c76097e95115ffb49b0d7b0cc9a36/transformed/jetified-gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/daddyzento/.gradle/caches/8.9/transforms/90a76f40008be40939b9e7d2556c3b61/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/daddyzento/.gradle/caches/8.9/transforms/90a76f40008be40939b9e7d2556c3b61/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/ad64b57b8768775f5415e7f2b2895c8b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/ad64b57b8768775f5415e7f2b2895c8b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/8d67a0a6006795d190bbfa8457d2592f/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/8d67a0a6006795d190bbfa8457d2592f/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/d022d08184f4872df521f2ed28abd513/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/d022d08184f4872df521f2ed28abd513/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/c77a5f83c693841d7fde64083f3c5aa1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/c77a5f83c693841d7fde64083f3c5aa1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/bedd8c943112ffa56b436daf63fd309e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/daddyzento/.gradle/caches/8.9/transforms/bedd8c943112ffa56b436daf63fd309e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.44] /Users/daddyzento/.gradle/caches/8.9/transforms/3eb6cb6bbbf1ce5630b0d5b743b73bf5/transformed/jetified-dagger-lint-aar-2.44/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.44] /Users/daddyzento/.gradle/caches/8.9/transforms/3eb6cb6bbbf1ce5630b0d5b743b73bf5/transformed/jetified-dagger-lint-aar-2.44/AndroidManifest.xml:18:3-42
+	android:targetSdkVersion
+		INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml
+	tools:ignore
+		ADDED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] /Users/daddyzento/.gradle/caches/8.9/transforms/1028c8f9a5f26882fda6a971e5c65e06/transformed/jetified-accompanist-drawablepainter-0.30.1/AndroidManifest.xml:23:9-39
+	android:minSdkVersion
+		INJECTED from /Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/ad64b57b8768775f5415e7f2b2895c8b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/daddyzento/.gradle/caches/8.9/transforms/ad64b57b8768775f5415e7f2b2895c8b/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.example.car_damage_diagnosis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.car_damage_diagnosis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

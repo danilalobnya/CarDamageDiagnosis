@@ -1,0 +1,74 @@
+com.example.car_damage_diagnosis.app-jetified-core-ktx-1.12.0-0 /Users/daddyzento/.gradle/caches/8.9/transforms/0122d108b14856f0ad82d168b061e409/transformed/jetified-core-ktx-1.12.0/res
+com.example.car_damage_diagnosis.app-jetified-ui-util-release-1 /Users/daddyzento/.gradle/caches/8.9/transforms/019ade71f1dbfe78662a6bba724f188d/transformed/jetified-ui-util-release/res
+com.example.car_damage_diagnosis.app-jetified-lifecycle-runtime-ktx-2.6.2-2 /Users/daddyzento/.gradle/caches/8.9/transforms/064f9480e0e31455774cf436e22d7cae/transformed/jetified-lifecycle-runtime-ktx-2.6.2/res
+com.example.car_damage_diagnosis.app-sqlite-framework-2.3.1-3 /Users/daddyzento/.gradle/caches/8.9/transforms/06e105356ce498a027f0c23ffb19c028/transformed/sqlite-framework-2.3.1/res
+com.example.car_damage_diagnosis.app-jetified-ui-tooling-preview-release-4 /Users/daddyzento/.gradle/caches/8.9/transforms/09eb78c679606e7fe44c45d4a4b3a19b/transformed/jetified-ui-tooling-preview-release/res
+com.example.car_damage_diagnosis.app-lifecycle-livedata-2.6.2-5 /Users/daddyzento/.gradle/caches/8.9/transforms/0acc74074648f5994514b4f0310b537a/transformed/lifecycle-livedata-2.6.2/res
+com.example.car_damage_diagnosis.app-jetified-profileinstaller-1.3.1-6 /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/res
+com.example.car_damage_diagnosis.app-fragment-1.5.1-7 /Users/daddyzento/.gradle/caches/8.9/transforms/0b7f4211ac02114114326307bba50a70/transformed/fragment-1.5.1/res
+com.example.car_damage_diagnosis.app-cardview-1.0.0-8 /Users/daddyzento/.gradle/caches/8.9/transforms/1010aa7807935cc8f3fd4732d98bca30/transformed/cardview-1.0.0/res
+com.example.car_damage_diagnosis.app-lifecycle-livedata-core-2.6.2-9 /Users/daddyzento/.gradle/caches/8.9/transforms/182c0f15bde90cc205cd56ec104b50d7/transformed/lifecycle-livedata-core-2.6.2/res
+com.example.car_damage_diagnosis.app-jetified-ui-graphics-release-10 /Users/daddyzento/.gradle/caches/8.9/transforms/1d17a003ad5c67343e8372afcdc210c5/transformed/jetified-ui-graphics-release/res
+com.example.car_damage_diagnosis.app-jetified-runtime-release-11 /Users/daddyzento/.gradle/caches/8.9/transforms/1f75b2a7ea03d5f308d8502a8f9fe5ce/transformed/jetified-runtime-release/res
+com.example.car_damage_diagnosis.app-navigation-common-2.7.2-12 /Users/daddyzento/.gradle/caches/8.9/transforms/21eb5db9c8279406152125403598cc20/transformed/navigation-common-2.7.2/res
+com.example.car_damage_diagnosis.app-jetified-emoji2-views-helper-1.4.0-13 /Users/daddyzento/.gradle/caches/8.9/transforms/24792a2af0099a1645267046e0b14c1f/transformed/jetified-emoji2-views-helper-1.4.0/res
+com.example.car_damage_diagnosis.app-jetified-savedstate-ktx-1.2.1-14 /Users/daddyzento/.gradle/caches/8.9/transforms/341352731999b896d46eb2f5730f37f6/transformed/jetified-savedstate-ktx-1.2.1/res
+com.example.car_damage_diagnosis.app-lifecycle-runtime-2.6.2-15 /Users/daddyzento/.gradle/caches/8.9/transforms/349a66ff508ecc96579895e80cd4b05b/transformed/lifecycle-runtime-2.6.2/res
+com.example.car_damage_diagnosis.app-navigation-common-ktx-2.7.2-16 /Users/daddyzento/.gradle/caches/8.9/transforms/42912a9ff706c1610e1d24e77c49813a/transformed/navigation-common-ktx-2.7.2/res
+com.example.car_damage_diagnosis.app-jetified-activity-1.7.2-17 /Users/daddyzento/.gradle/caches/8.9/transforms/46342751a47f2cd00f6a895a17723ba2/transformed/jetified-activity-1.7.2/res
+com.example.car_damage_diagnosis.app-jetified-viewpager2-1.0.0-18 /Users/daddyzento/.gradle/caches/8.9/transforms/4921e2aa29e16c305126193520fc8fb0/transformed/jetified-viewpager2-1.0.0/res
+com.example.car_damage_diagnosis.app-core-runtime-2.2.0-19 /Users/daddyzento/.gradle/caches/8.9/transforms/4a47d0d59e7ae3db3067dee958a30fc6/transformed/core-runtime-2.2.0/res
+com.example.car_damage_diagnosis.app-jetified-material-icons-extended-release-20 /Users/daddyzento/.gradle/caches/8.9/transforms/50f530cb7cfa360d7aeb09a403f70132/transformed/jetified-material-icons-extended-release/res
+com.example.car_damage_diagnosis.app-jetified-ui-tooling-release-21 /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/res
+com.example.car_damage_diagnosis.app-jetified-lifecycle-viewmodel-ktx-2.6.2-22 /Users/daddyzento/.gradle/caches/8.9/transforms/60f91b803e9530d6ef5ddea3d97d2676/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/res
+com.example.car_damage_diagnosis.app-drawerlayout-1.1.1-23 /Users/daddyzento/.gradle/caches/8.9/transforms/65e45709fd957044e7088a745fd30863/transformed/drawerlayout-1.1.1/res
+com.example.car_damage_diagnosis.app-jetified-ui-release-24 /Users/daddyzento/.gradle/caches/8.9/transforms/6a6e430fbe29e0be89cacc684341a689/transformed/jetified-ui-release/res
+com.example.car_damage_diagnosis.app-coordinatorlayout-1.1.0-25 /Users/daddyzento/.gradle/caches/8.9/transforms/70f5d1af6b2aa3e0c6d115252784a9e1/transformed/coordinatorlayout-1.1.0/res
+com.example.car_damage_diagnosis.app-jetified-navigation-compose-2.7.2-26 /Users/daddyzento/.gradle/caches/8.9/transforms/72219ff6ccb61c49d477a803b75a19cf/transformed/jetified-navigation-compose-2.7.2/res
+com.example.car_damage_diagnosis.app-jetified-hilt-navigation-1.0.0-27 /Users/daddyzento/.gradle/caches/8.9/transforms/75411f4a7ce7a5df848e749bce786b2c/transformed/jetified-hilt-navigation-1.0.0/res
+com.example.car_damage_diagnosis.app-navigation-runtime-2.7.2-28 /Users/daddyzento/.gradle/caches/8.9/transforms/7734377bff1b7dd1c7eaece2a2149e6a/transformed/navigation-runtime-2.7.2/res
+com.example.car_damage_diagnosis.app-jetified-material-ripple-release-29 /Users/daddyzento/.gradle/caches/8.9/transforms/797bf8b6d46d4a3d4bc3b3b998a94b68/transformed/jetified-material-ripple-release/res
+com.example.car_damage_diagnosis.app-jetified-coil-base-2.4.0-30 /Users/daddyzento/.gradle/caches/8.9/transforms/7df36eef5dab7f624b252b7265b1894c/transformed/jetified-coil-base-2.4.0/res
+com.example.car_damage_diagnosis.app-jetified-emoji2-1.4.0-31 /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/res
+com.example.car_damage_diagnosis.app-transition-1.2.0-32 /Users/daddyzento/.gradle/caches/8.9/transforms/903c728e41e8c40c93f9a3d05147901e/transformed/transition-1.2.0/res
+com.example.car_damage_diagnosis.app-jetified-hilt-navigation-compose-1.0.0-33 /Users/daddyzento/.gradle/caches/8.9/transforms/93c36533f4436019612b2afaf2a7a6dc/transformed/jetified-hilt-navigation-compose-1.0.0/res
+com.example.car_damage_diagnosis.app-core-1.12.0-34 /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/res
+com.example.car_damage_diagnosis.app-jetified-ui-unit-release-35 /Users/daddyzento/.gradle/caches/8.9/transforms/960c0f49939826be2f7308d7583da6d3/transformed/jetified-ui-unit-release/res
+com.example.car_damage_diagnosis.app-navigation-runtime-ktx-2.7.2-36 /Users/daddyzento/.gradle/caches/8.9/transforms/98e80b18dc23792e7b6ad5925c382f33/transformed/navigation-runtime-ktx-2.7.2/res
+com.example.car_damage_diagnosis.app-jetified-animation-release-37 /Users/daddyzento/.gradle/caches/8.9/transforms/9cf6e8c4913dafc60354a531b6e45fd7/transformed/jetified-animation-release/res
+com.example.car_damage_diagnosis.app-lifecycle-viewmodel-2.6.2-38 /Users/daddyzento/.gradle/caches/8.9/transforms/9e333d25832e3f9fd4e8cf974c76610e/transformed/lifecycle-viewmodel-2.6.2/res
+com.example.car_damage_diagnosis.app-room-runtime-2.5.2-39 /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/res
+com.example.car_damage_diagnosis.app-jetified-activity-ktx-1.7.2-40 /Users/daddyzento/.gradle/caches/8.9/transforms/a89b163599ab74678fd59f9479ac7104/transformed/jetified-activity-ktx-1.7.2/res
+com.example.car_damage_diagnosis.app-constraintlayout-2.1.4-41 /Users/daddyzento/.gradle/caches/8.9/transforms/a9469c1f022931d055c2017c1818e7e7/transformed/constraintlayout-2.1.4/res
+com.example.car_damage_diagnosis.app-jetified-lifecycle-process-2.6.2-42 /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/res
+com.example.car_damage_diagnosis.app-jetified-savedstate-1.2.1-43 /Users/daddyzento/.gradle/caches/8.9/transforms/aa5a79b19e5b90548d491544e2c496a2/transformed/jetified-savedstate-1.2.1/res
+com.example.car_damage_diagnosis.app-jetified-startup-runtime-1.1.1-44 /Users/daddyzento/.gradle/caches/8.9/transforms/ad64b57b8768775f5415e7f2b2895c8b/transformed/jetified-startup-runtime-1.1.1/res
+com.example.car_damage_diagnosis.app-jetified-activity-compose-1.7.2-45 /Users/daddyzento/.gradle/caches/8.9/transforms/ade9db8cc1952b7886f138b24bb10e40/transformed/jetified-activity-compose-1.7.2/res
+com.example.car_damage_diagnosis.app-jetified-foundation-layout-release-46 /Users/daddyzento/.gradle/caches/8.9/transforms/aed02ea642e7f022de72e692e8bfdcd0/transformed/jetified-foundation-layout-release/res
+com.example.car_damage_diagnosis.app-jetified-customview-poolingcontainer-1.0.0-47 /Users/daddyzento/.gradle/caches/8.9/transforms/af2f0c7b1044d56aebc7b420bfe4b0d3/transformed/jetified-customview-poolingcontainer-1.0.0/res
+com.example.car_damage_diagnosis.app-jetified-ui-text-release-48 /Users/daddyzento/.gradle/caches/8.9/transforms/b285e645155020fdcbb46f1d0f214724/transformed/jetified-ui-text-release/res
+com.example.car_damage_diagnosis.app-jetified-ui-tooling-data-release-49 /Users/daddyzento/.gradle/caches/8.9/transforms/bf09cbc51117bde598a86e0e18acc948/transformed/jetified-ui-tooling-data-release/res
+com.example.car_damage_diagnosis.app-jetified-material-release-50 /Users/daddyzento/.gradle/caches/8.9/transforms/c6121c5fcd3027a4451c2f2caec97330/transformed/jetified-material-release/res
+com.example.car_damage_diagnosis.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-51 /Users/daddyzento/.gradle/caches/8.9/transforms/c7d5ee2a3df28d0f368d94f003dbd104/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res
+com.example.car_damage_diagnosis.app-jetified-room-ktx-2.5.2-52 /Users/daddyzento/.gradle/caches/8.9/transforms/c950c65dce605d12294e834fd9be801a/transformed/jetified-room-ktx-2.5.2/res
+com.example.car_damage_diagnosis.app-recyclerview-1.3.0-53 /Users/daddyzento/.gradle/caches/8.9/transforms/c9fc515163a24459e3d73d9d7a7e80be/transformed/recyclerview-1.3.0/res
+com.example.car_damage_diagnosis.app-jetified-animation-core-release-54 /Users/daddyzento/.gradle/caches/8.9/transforms/ca91e492d806e029bc4d518e9d5b1dea/transformed/jetified-animation-core-release/res
+com.example.car_damage_diagnosis.app-jetified-glide-4.16.0-55 /Users/daddyzento/.gradle/caches/8.9/transforms/cdc873914827039b360cad016283d628/transformed/jetified-glide-4.16.0/res
+com.example.car_damage_diagnosis.app-jetified-ui-geometry-release-56 /Users/daddyzento/.gradle/caches/8.9/transforms/cfed465e48860fa7c7dd4b10d970139e/transformed/jetified-ui-geometry-release/res
+com.example.car_damage_diagnosis.app-appcompat-1.6.1-57 /Users/daddyzento/.gradle/caches/8.9/transforms/d742d6cc749747640e05fc53c5de4a5f/transformed/appcompat-1.6.1/res
+com.example.car_damage_diagnosis.app-sqlite-2.3.1-58 /Users/daddyzento/.gradle/caches/8.9/transforms/d8a3cb1df890dd012ff9a0100c0fb147/transformed/sqlite-2.3.1/res
+com.example.car_damage_diagnosis.app-jetified-appcompat-resources-1.6.1-59 /Users/daddyzento/.gradle/caches/8.9/transforms/d932c27a929137fb2ba6981f918346c4/transformed/jetified-appcompat-resources-1.6.1/res
+com.example.car_damage_diagnosis.app-jetified-runtime-saveable-release-60 /Users/daddyzento/.gradle/caches/8.9/transforms/dc0286282846074715a44b01dd76d930/transformed/jetified-runtime-saveable-release/res
+com.example.car_damage_diagnosis.app-jetified-foundation-release-61 /Users/daddyzento/.gradle/caches/8.9/transforms/e0afe4aebeb196cf04d4834f62ed6920/transformed/jetified-foundation-release/res
+com.example.car_damage_diagnosis.app-material-1.9.0-62 /Users/daddyzento/.gradle/caches/8.9/transforms/e580b650d94e9b8b26a43aa710a02321/transformed/material-1.9.0/res
+com.example.car_damage_diagnosis.app-jetified-annotation-experimental-1.3.0-63 /Users/daddyzento/.gradle/caches/8.9/transforms/e65bc4ee9abf8981428f92ac727f5598/transformed/jetified-annotation-experimental-1.3.0/res
+com.example.car_damage_diagnosis.app-jetified-material3-1.1.1-64 /Users/daddyzento/.gradle/caches/8.9/transforms/eda57bc880cf85a42ac30115c468514e/transformed/jetified-material3-1.1.1/res
+com.example.car_damage_diagnosis.app-jetified-lifecycle-viewmodel-compose-2.6.2-65 /Users/daddyzento/.gradle/caches/8.9/transforms/ee2d1ea7ef00456b6eeef8ca27d6d1be/transformed/jetified-lifecycle-viewmodel-compose-2.6.2/res
+com.example.car_damage_diagnosis.app-jetified-material-icons-core-release-66 /Users/daddyzento/.gradle/caches/8.9/transforms/f44b3249688677322a2e17c09e974369/transformed/jetified-material-icons-core-release/res
+com.example.car_damage_diagnosis.app-recyclerview-selection-1.1.0-67 /Users/daddyzento/.gradle/caches/8.9/transforms/f4b74331a694af5aad73f8f4d2e7c77b/transformed/recyclerview-selection-1.1.0/res
+com.example.car_damage_diagnosis.app-resValues-68 /Users/daddyzento/Downloads/main — копия/app/build/generated/res/resValues/debug
+com.example.car_damage_diagnosis.app-mergeDebugResources-69 /Users/daddyzento/Downloads/main — копия/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.car_damage_diagnosis.app-mergeDebugResources-70 /Users/daddyzento/Downloads/main — копия/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.car_damage_diagnosis.app-debug-71 /Users/daddyzento/Downloads/main — копия/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.car_damage_diagnosis.app-debug-72 /Users/daddyzento/Downloads/main — копия/app/src/debug/res
+com.example.car_damage_diagnosis.app-main-73 /Users/daddyzento/Downloads/main — копия/app/src/main/res

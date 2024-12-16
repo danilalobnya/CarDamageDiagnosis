@@ -1,0 +1,236 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.car_damage_diagnosis"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:9:5-67
+15-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:10:5-65
+16-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:10:22-62
+17    <uses-permission
+17-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:11:5-12:38
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:11:22-77
+19        android:maxSdkVersion="35" />
+19-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:12:9-35
+20    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+20-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:13:5-76
+20-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:13:22-73
+21
+22    <permission
+22-->[androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.car_damage_diagnosis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.car_damage_diagnosis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:15:5-78:19
+29        android:name="com.example.car_damage_diagnosis.CarDamageApp"
+29-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:16:9-37
+30        android:allowBackup="true"
+30-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:17:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.12.0] /Users/daddyzento/.gradle/caches/8.9/transforms/9505ca17588bf0aba3ec827e624cc935/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+32        android:dataExtractionRules="@xml/data_extraction_rules"
+32-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:18:9-65
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:fullBackupContent="@xml/backup_rules"
+35-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:19:9-54
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:20:9-43
+37        android:label="@string/app_name"
+37-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:21:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:22:9-54
+39        android:supportsRtl="true"
+39-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:23:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.CarDamageDiagnosis" >
+41-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:24:9-56
+42
+43        <!-- Main вход -->
+44        <activity
+44-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:28:9-36:20
+45            android:name="com.example.car_damage_diagnosis.MainActivity"
+45-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:29:13-41
+46            android:exported="true"
+46-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:30:13-36
+47            android:theme="@style/Theme.CarDamageDiagnosis" >
+47-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:31:13-60
+48            <intent-filter>
+48-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:32:13-35:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:33:17-69
+49-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:33:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:34:17-77
+51-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:34:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity android:name="com.example.car_damage_diagnosis.ui.screens.history.HistoryActivity" />
+54-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:38:9-72
+54-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:38:19-69
+55        <activity android:name="com.example.car_damage_diagnosis.ui.screens.history.DetailActivity" />
+55-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:39:9-71
+55-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:39:19-68
+56        <activity android:name="com.example.car_damage_diagnosis.ui.screens.settings.SettingsScreen" />
+56-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:40:9-72
+56-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:40:19-69
+57        <activity android:name="com.example.car_damage_diagnosis.ui.screens.loader.LoaderScreen" />
+57-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:41:9-68
+57-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:41:19-65
+58        <activity android:name="com.example.car_damage_diagnosis.ui.screens.upload.UploadScreen" />
+58-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:42:9-68
+58-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:42:19-65
+59
+60        <provider
+60-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:43:9-52:20
+61            android:name="androidx.core.content.FileProvider"
+61-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:44:13-62
+62            android:authorities="com.example.car_damage_diagnosis.fileprovider"
+62-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:45:13-80
+63            android:exported="false"
+63-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:46:13-37
+64            android:grantUriPermissions="true"
+64-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:47:13-47
+65            android:permission="android.permission.MANAGE_EXTERNAL_STORAGE" >
+65-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:48:13-76
+66            <meta-data
+66-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:49:13-51:54
+67                android:name="android.support.FILE_PROVIDER_PATHS"
+67-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:50:17-67
+68                android:resource="@xml/file_paths" />
+68-->/Users/daddyzento/Downloads/main — копия/app/src/main/AndroidManifest.xml:51:17-51
+69        </provider>
+70        <!-- HistoryActivity временно настроена как стартовая -->
+71        <!--
+72        <activity
+73            android:name=".ui.screens.history.HistoryActivity"
+74            android:exported="true"
+75            android:theme="@style/Theme.CarDamageDiagnosis">
+76            <intent-filter>
+77                <action android:name="android.intent.action.MAIN" />
+78                <category android:name="android.intent.category.LAUNCHER" />
+79            </intent-filter>
+80        </activity>
+81        -->
+82
+83
+84        <!-- UploadScreen временно настроена как стартовая -->
+85
+86
+87        <!-- <activity -->
+88        <!-- android:name=".ui.screens.upload.UploadScreen" -->
+89        <!-- android:exported="true" -->
+90        <!-- android:theme="@style/Theme.CarDamageDiagnosis" -->
+91        <!-- tools:ignore="DuplicateActivity"> -->
+92        <!-- <intent-filter> -->
+93        <!-- <action android:name="android.intent.action.MAIN" /> -->
+94        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+95        <!-- </intent-filter> -->
+96        <!-- </activity> -->
+97        <activity
+97-->[androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+98            android:name="androidx.compose.ui.tooling.PreviewActivity"
+98-->[androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+99            android:exported="true" />
+99-->[androidx.compose.ui:ui-tooling-android:1.5.1] /Users/daddyzento/.gradle/caches/8.9/transforms/5aa4c7f44506956cf2f97740da4d9464/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+100
+101        <provider
+101-->[androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+102            android:name="androidx.startup.InitializationProvider"
+102-->[androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
+103            android:authorities="com.example.car_damage_diagnosis.androidx-startup"
+103-->[androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
+104            android:exported="false" >
+104-->[androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
+105            <meta-data
+105-->[androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+106-->[androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
+107                android:value="androidx.startup" />
+107-->[androidx.emoji2:emoji2:1.4.0] /Users/daddyzento/.gradle/caches/8.9/transforms/88878863de0957ed193aad7f40975c65/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+109-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+110                android:value="androidx.startup" />
+110-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/daddyzento/.gradle/caches/8.9/transforms/a99ba7c702bdd59dab8175e0bfc6b586/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+113                android:value="androidx.startup" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+114        </provider>
+115
+116        <service
+116-->[androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
+117            android:name="androidx.room.MultiInstanceInvalidationService"
+117-->[androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
+118            android:directBootAware="true"
+118-->[androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
+119            android:exported="false" />
+119-->[androidx.room:room-runtime:2.5.2] /Users/daddyzento/.gradle/caches/8.9/transforms/9f8666bc56a3b366d87d34f5f87f8ce0/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
+120
+121        <receiver
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+122            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+123            android:directBootAware="false"
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+124            android:enabled="true"
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+125            android:exported="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+126            android:permission="android.permission.DUMP" >
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+128                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+131                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+132            </intent-filter>
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+134                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+137                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/daddyzento/.gradle/caches/8.9/transforms/0af877a934ee3df83dfae40abd9796da/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+138            </intent-filter>
+139        </receiver>
+140    </application>
+141
+142</manifest>
