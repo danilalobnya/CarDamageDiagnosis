@@ -29,6 +29,9 @@ import androidx.compose.ui.window.Dialog
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.car_damage_diagnosis.R
 import dagger.hilt.android.AndroidEntryPoint
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.time.format.DateTimeParseException
 
 data class SettingItem(val title: String, val icon: Int, val onClick: () -> Unit)
 
@@ -44,15 +47,17 @@ class SettingsScreen : ComponentActivity(){
 
 @Composable
 fun CombinedSettingsScreen(viewModel: SettingsViewModel = hiltViewModel(), onBackClick: () -> Unit) {
-    val phoneNumber by viewModel.formattedPhoneNumber.collectAsState()
-    val showDialog by viewModel.showEditProfileDialog.collectAsState()
+    val showProfileDialog by viewModel.showEditProfileDialog.collectAsState()
     val showThemeDialog by viewModel.showThemeDialog.collectAsState()
+    val showPhoneNumber by viewModel.showEditPhoneNumberDialog.collectAsState()
+    val showLogoutDialog by viewModel.showLogoutDialog.collectAsState()
 
-    var name by rememberSaveable { mutableStateOf("") }
-    var surname by rememberSaveable { mutableStateOf("") }
-    var birthDate by rememberSaveable { mutableStateOf("") }
-    var selectedTheme by remember { mutableStateOf(SettingsViewModel.Theme.System) }
-    var textFieldValue by rememberSaveable { mutableStateOf("") }
+    // Состояния для хранения значений в диалогах
+    var tempName by rememberSaveable { mutableStateOf("") }
+    var tempSurname by rememberSaveable { mutableStateOf("") }
+    var tempBirthDate by rememberSaveable { mutableStateOf("") }
+    var tempSelectedTheme by remember { mutableStateOf(SettingsViewModel.Theme.System) }
+    var tempPhoneNumber by rememberSaveable { mutableStateOf(viewModel.phoneNumber.value) }
 
     Scaffold(
         topBar = {
@@ -110,7 +115,7 @@ fun CombinedSettingsScreen(viewModel: SettingsViewModel = hiltViewModel(), onBac
                                     .padding(horizontal = 12.dp),
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
-                                IconButton(onClick = { viewModel.onEditProfileClick() }, modifier = Modifier.size(18.dp)) {
+                                IconButton(onClick = { viewModel.onEditPhoneNumberClick() }, modifier = Modifier.size(18.dp)) {
                                     Icon(
                                         painter = painterResource(id = R.drawable.ic_edit_phone_number),
                                         contentDescription = "Edit Profile",
@@ -119,7 +124,12 @@ fun CombinedSettingsScreen(viewModel: SettingsViewModel = hiltViewModel(), onBac
                                     )
                                 }
                                 Spacer(modifier = Modifier.width(4.dp))
-                                Text(phoneNumber, fontSize = 16.sp, fontWeight = FontWeight.Medium)
+                                Text(
+                                    // Показываем номер без +7 так как добавляем в prefix
+                                    "+7"+tempPhoneNumber,
+                                    fontSize = 16.sp,
+                                    fontWeight = FontWeight.Medium
+                                )
                             }
                         }
                     }
@@ -161,8 +171,14 @@ fun CombinedSettingsScreen(viewModel: SettingsViewModel = hiltViewModel(), onBac
             }
 
             // EditProfileDialog
-            if (showDialog) {
-                Dialog(onDismissRequest = viewModel::onDismissEditProfileDialog) {
+            if (showProfileDialog) {
+                Dialog(onDismissRequest = {
+                    viewModel.onDismissEditProfileDialog()
+                    //  При отмене сбрасываем состояние на начальное
+                    tempName = viewModel.user.value.name
+                    tempSurname = viewModel.user.value.surname
+                    tempBirthDate = viewModel.user.value.birthDate
+                }) {
                     Surface(
                         modifier = Modifier
                             .width(300.dp)
@@ -176,43 +192,85 @@ fun CombinedSettingsScreen(viewModel: SettingsViewModel = hiltViewModel(), onBac
                             Spacer(modifier = Modifier.height(16.dp))
 
                             // OutlinedTextFieldSimple for name
-
                             OutlinedTextField(
-                                value = name,
-                                onValueChange = { name = it},
+                                value = tempName,
+                                onValueChange = { tempName = it },
                                 label = { Text("Имя") },
                                 modifier = Modifier.fillMaxWidth(),
-                                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text)
+                                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text),
+                                isError = tempName.length < 2 || tempName.length > 15,
+                                colors = OutlinedTextFieldDefaults.colors(
+                                    focusedBorderColor = Color(0xFF65558F),
+                                    unfocusedBorderColor = Color(0xFF79747E),
+                                    focusedLabelColor = Color(0xFF65558F),
+                                    unfocusedLabelColor = Color(0xFF79747E)
+                                )
                             )
                             // OutlinedTextFieldSimple for surname
-
                             OutlinedTextField(
-                                value = surname,
-                                onValueChange = { surname = it },
+                                value = tempSurname,
+                                onValueChange = { tempSurname = it },
                                 label = { Text("Фамилия") },
                                 modifier = Modifier.fillMaxWidth(),
-                                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text)
+                                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text),
+                                isError = tempSurname.length < 2 || tempSurname.length > 15,
+                                colors = OutlinedTextFieldDefaults.colors(
+                                    focusedBorderColor = Color(0xFF65558F),
+                                    unfocusedBorderColor = Color(0xFF79747E),
+                                    focusedLabelColor = Color(0xFF65558F),
+                                    unfocusedLabelColor = Color(0xFF79747E)
+                                )
                             )
 
                             // OutlinedTextFieldSimple for birthDate
-
                             OutlinedTextField(
-                                value = birthDate,
-                                onValueChange = { birthDate = it },
-                                label = { Text("Дата рождения") },
-                                modifier = Modifier.fillMaxWidth(),
-                                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text)
-                            )
+                                value = tempBirthDate,
+                                onValueChange = {
+                                    // ограничиваем ввод до 10 символов
+                                    if(it.length <= 10) {
+                                        tempBirthDate =  it.filter { char -> char.isDigit() || char == '/' }.let { input ->
+                                            if (input.length == 2 || input.length == 5) {
+                                                if (input.last() != '/') {
+                                                    "$input/"
+                                                } else input
+                                            }else input
+                                        }
+                                    }
 
+                                },
+                                label = { Text("Дата рождения") },
+                                placeholder = { Text("дд/мм/гггг") },
+                                modifier = Modifier.fillMaxWidth(),
+                                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text),
+                                isError =  !isValidDate(tempBirthDate) && tempBirthDate.isNotEmpty(),
+                                colors = OutlinedTextFieldDefaults.colors(
+                                    focusedBorderColor = Color(0xFF65558F),
+                                    unfocusedBorderColor = Color(0xFF79747E),
+                                    focusedLabelColor = Color(0xFF65558F),
+                                    unfocusedLabelColor = Color(0xFF79747E)
+                                )
+                            )
                             Spacer(modifier = Modifier.height(16.dp))
                             Row(
                                 modifier = Modifier.fillMaxWidth(),
                                 horizontalArrangement = Arrangement.SpaceBetween
                             ) {
-                                Button(onClick = viewModel::onDismissEditProfileDialog) { Text("Отменить") }
                                 Button(onClick = {
                                     viewModel.onDismissEditProfileDialog()
-                                }) { Text("Сохранить") }
+                                    tempName = viewModel.user.value.name
+                                    tempSurname = viewModel.user.value.surname
+                                    tempBirthDate = viewModel.user.value.birthDate
+                                }) { Text("Отменить") }
+                                Button(
+                                    onClick = {
+                                        viewModel.updateProfile(tempName, tempSurname, tempBirthDate)
+                                        viewModel.onDismissEditProfileDialog()
+                                    },
+                                    enabled = tempName.length in 2..15 &&
+                                            tempSurname.length in 2..15 &&
+                                            isValidDate(tempBirthDate)
+                                )
+                                { Text("Сохранить") }
                             }
                         }
                     }
@@ -238,11 +296,11 @@ fun CombinedSettingsScreen(viewModel: SettingsViewModel = hiltViewModel(), onBac
                                 Row(
                                     verticalAlignment = Alignment.CenterVertically,
                                     modifier = Modifier.fillMaxWidth()
-                                        .clickable { selectedTheme = theme }
+                                        .clickable { tempSelectedTheme = theme }
                                 ) {
                                     RadioButton(
-                                        selected = selectedTheme == theme,
-                                        onClick = { selectedTheme = theme }
+                                        selected = tempSelectedTheme == theme,
+                                        onClick = { tempSelectedTheme = theme }
                                     )
                                     Spacer(modifier = Modifier.width(8.dp))
                                     Text(when (theme) {
@@ -253,14 +311,122 @@ fun CombinedSettingsScreen(viewModel: SettingsViewModel = hiltViewModel(), onBac
                                 }
                             }
                             Spacer(modifier = Modifier.height(16.dp))
-                            Button(onClick = { viewModel.onThemeSelected(selectedTheme); viewModel.onDismissThemeDialog() }) {
+                            Button(onClick = { viewModel.onThemeSelected(tempSelectedTheme); viewModel.onDismissThemeDialog() }) {
                                 Text("Сохранить")
                             }
                         }
                     }
                 }
             }
+            //EditPhoneNumber
+            if (showPhoneNumber) {
+                // Используем LaunchedEffect для установки начального значения tempPhoneNumber
+                LaunchedEffect(showPhoneNumber){
+                    if(showPhoneNumber) {
+                        tempPhoneNumber = viewModel.phoneNumber.value
+                    }
+                }
+                Dialog(onDismissRequest = {
+                    viewModel.onDismissEditPhoneNumberDialog()
+                    // При отмене - сбрасываем состояние
+                    tempPhoneNumber = viewModel.phoneNumber.value
+                }) {
+                    Surface(
+                        modifier = Modifier
+                            .width(300.dp)
+                            .padding(16.dp),
+                        shape = RoundedCornerShape(8.dp),
+                        tonalElevation = 2.dp,
+                        color = Color(0xFFEADDFF)
+                    ) {
+                        Column(modifier = Modifier.padding(16.dp)) {
+                            Text("Редактирование номера", style = MaterialTheme.typography.headlineMedium)
+                            Spacer(modifier = Modifier.height(16.dp))
+
+                            // OutlinedTextFieldSimple for name
+                            // Исправлено: используем tempPhoneNumber для value и убрали filter в onValueChange
+                            OutlinedTextField(
+                                value = tempPhoneNumber,
+                                onValueChange = {
+                                    tempPhoneNumber = it
+                                },
+                                label = { Text("Номер телефона") },
+                                prefix = { Text("+7 ") },
+                                placeholder = { Text("") },
+                                keyboardOptions = KeyboardOptions(
+                                    keyboardType = KeyboardType.Phone
+                                ),
+                                singleLine = true,
+                                maxLines = 1,
+                                isError = tempPhoneNumber.isNotEmpty() && tempPhoneNumber.length < 10,
+                                modifier = Modifier
+                                    .fillMaxWidth(),
+                                colors = OutlinedTextFieldDefaults.colors(
+                                    focusedBorderColor = Color(0xFF65558F),
+                                    unfocusedBorderColor = Color(0xFF79747E),
+                                    focusedLabelColor = Color(0xFF65558F),
+                                    unfocusedLabelColor = Color(0xFF79747E)
+                                )
+                            )
+
+                            Spacer(modifier = Modifier.height(16.dp))
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween
+                            ) {
+                                Button(onClick =  {
+                                    viewModel.onDismissEditPhoneNumberDialog()
+                                    // При отмене - сбрасываем состояние
+                                    tempPhoneNumber = viewModel.phoneNumber.value
+                                }) { Text("Отменить") }
+                                // Исправлено: используем isValidPhoneNumber для активации кнопки
+                                Button(
+                                    onClick = {
+                                        // Обновляем phoneNumber в viewModel при сохранении
+                                        viewModel.updatePhoneNumber(tempPhoneNumber)
+                                        viewModel.onDismissEditPhoneNumberDialog()
+                                    },
+                                    enabled = tempPhoneNumber.length == 10
+                                ) { Text("Сохранить") }
+                            }
+                        }
+                    }
+                }
+            }
+            // LogoutDialog
+            if (showLogoutDialog) {
+                AlertDialog(
+                    onDismissRequest = { viewModel.onDismissLogoutDialog() },
+                    title = { Text("Выход из аккаунта") },
+                    text = { Text("Вы уверены, что хотите выйти из аккаунта?") },
+                    confirmButton = {
+                        TextButton(onClick = {
+                            viewModel.logout()
+                        }) {
+                            Text("Да")
+                        }
+                    },
+                    dismissButton = {
+                        TextButton(onClick = { viewModel.onDismissLogoutDialog() }) {
+                            Text("Нет")
+                        }
+                    }
+                )
+            }
         }
     }
 }
+    fun isValidDate(date: String): Boolean {
+        val regex = """(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/\d{4}""".toRegex()
+        if (!regex.matches(date)) return false
+        val (day, month, year) = date.split('/').map { it.toInt() }
+        if (month < 1 || month > 12) return false
+
+        val daysInMonth = when (month) {
+            2 -> if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) 29 else 28
+            4, 6, 9, 11 -> 30
+            else -> 31
+        }
+        return day in 1..daysInMonth
+    }
 }
