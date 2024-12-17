@@ -94,7 +94,8 @@ fun CombinedSettingsScreen(viewModel: SettingsViewModel = hiltViewModel(), onBac
                 Surface(
                     modifier = Modifier
                         .padding(horizontal = 4.dp)
-                        .height(30.dp),
+                        .height(30.dp)
+                        .clickable { viewModel.onEditPhoneNumberClick() },// Добавлен clickable к Surface
                     shape = RoundedCornerShape(100.dp),
                     color = Color(0xFFEADDFF),
                 ) {
@@ -115,18 +116,16 @@ fun CombinedSettingsScreen(viewModel: SettingsViewModel = hiltViewModel(), onBac
                                     .padding(horizontal = 12.dp),
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
-                                IconButton(onClick = { viewModel.onEditPhoneNumberClick() }, modifier = Modifier.size(18.dp)) {
-                                    Icon(
-                                        painter = painterResource(id = R.drawable.ic_edit_phone_number),
-                                        contentDescription = "Edit Profile",
-                                        modifier = Modifier.size(18.dp),
-                                        tint = Color(0xFF65558F)
-                                    )
-                                }
+                                Icon(
+                                    painter = painterResource(id = R.drawable.ic_edit_phone_number),
+                                    contentDescription = "Edit Profile",
+                                    modifier = Modifier.size(18.dp),
+                                    tint = Color(0xFF65558F)
+                                )
                                 Spacer(modifier = Modifier.width(4.dp))
                                 Text(
                                     // Показываем номер без +7 так как добавляем в prefix
-                                    "+7"+tempPhoneNumber,
+                                    "+7" + tempPhoneNumber,
                                     fontSize = 16.sp,
                                     fontWeight = FontWeight.Medium
                                 )
